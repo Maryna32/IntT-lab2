@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
+.text-section {
+  background-color: burlywood;
+}
+
+#main-title {
+  color: chocolate;
+}
+
+#title-activity {
+  margin-top: 50px;
+  color: brown;
+}
+
+.some-imp-text {
+  border: 3px solid green;
+  padding: 10px;
+  text-align: center;
+}
+
+.some-position {
+  position: absolute;
+  background-color: darkseagreen;
+  top: 40px;
+  width: 200px;
+  left: 350px;
+  padding: 20px;
+}
+
+img {
+  float: left;
+  margin: 0 20px 20px 0;
+  width: 200px;
+}
+
+.image-text {
+  background-color: lightcyan;
+}
+
+.container {
+  display: flex;
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  flex-wrap: wrap;
+}
+
+.item {
+  background-color: blue;
+  margin: 10px;
+  width: 80px;
+  height: 80px;
+}
+
+.item:nth-child(2) {
+  height: 160px;
+}
